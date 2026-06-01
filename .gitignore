@@ -33,8 +33,3 @@ next-env.d.ts
 
 # Vercel / Render
 .vercel
-
-# Claude Code / ferramentas de desenvolvimento
-.claude/
-.agents/
-skills-lock.json

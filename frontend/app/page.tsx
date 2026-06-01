@@ -52,8 +52,8 @@ export default function HomePage() {
     <div>
       {/* Hero */}
       <section
-        className="relative bg-gradient-to-br from-red-600 via-red-600 to-red-700 overflow-hidden"
-        style={{ backgroundImage: PATTERN }}
+        className="relative overflow-hidden"
+        style={{ backgroundImage: `${PATTERN}, linear-gradient(to bottom right, #dc2626, #dc2626, #b91c1c)` }}
       >
         <div className="relative max-w-6xl mx-auto px-4 py-12 sm:py-16">
           <div className="max-w-xl">

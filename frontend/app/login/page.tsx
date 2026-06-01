@@ -49,8 +49,8 @@ export default function LoginPage() {
     <div className="min-h-screen flex">
       {/* Decorative panel */}
       <div
-        className="hidden lg:flex lg:w-5/12 bg-gradient-to-br from-red-600 to-red-800 relative items-center justify-center p-12 flex-shrink-0"
-        style={{ backgroundImage: PATTERN }}
+        className="hidden lg:flex lg:w-5/12 relative items-center justify-center p-12 flex-shrink-0"
+        style={{ backgroundImage: `${PATTERN}, linear-gradient(to bottom right, #dc2626, #991b1b)` }}
       >
         <div className="text-white text-center animate-fade-up">
           <div className="w-20 h-20 bg-white/15 rounded-3xl flex items-center justify-center mx-auto mb-6 backdrop-blur-sm border border-white/20">

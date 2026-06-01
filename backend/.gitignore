@@ -1,0 +1,17 @@
+# Dependências
+node_modules/
+
+# Build
+dist/
+
+# Variáveis de ambiente (o .env.example é seguro para commitar)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# Editor/OS
+.DS_Store
+.vscode/
